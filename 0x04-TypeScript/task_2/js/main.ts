@@ -1,7 +1,7 @@
-function isDirector(employee: { role: string }): boolean {
+export function isDirector(employee: { role: string }): boolean {
     return employee.role === 'Director';
 }
-function executeWork(employee: { firstName: string; lastName: string }): string {
+function executeWork(employee: { role: string }): void {
     if(employee.role === 'Director') {
         workDirectorTasks();
     } else {
