@@ -13,7 +13,7 @@ namespace Subjects {
             return "Here is the list of requirements"
         }
         getAvailableTeacher(): string {
-            return `Available Teacher: ${this.teacher.firstName}`
+            return `Available Teacher: ${this.teacher.firstName && this.teacher.experienceTeachingReact}`
         }
     }
 }

@@ -4,6 +4,7 @@ namespace Subjects {
         experienceTeachingJava?: number;
     }
     
+    //class Java extends Subject
     class Java extends Subject {
         teacher: Teacher;
         constructor(teacher: Teacher){
