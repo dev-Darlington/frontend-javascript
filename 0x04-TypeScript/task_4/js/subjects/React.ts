@@ -1,10 +1,10 @@
-export namespace Subjects {
+namespace Subjects {
     export interface Teacher {
         readonly firstName: string;
         readonly lastName: string;
         experienceTeachingReact?: number;
         }
-    export class React {
+    export class React extends Subject {
         teacher: Teacher;
         // constructor(teacher: Teacher){
         //     this.teacher = teacher;

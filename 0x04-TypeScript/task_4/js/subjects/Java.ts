@@ -1,12 +1,13 @@
 namespace Subjects {
     export interface Teacher {
-        firstName: any;
+        readonly firstName: string;
         experienceTeachingJava?: number;
     }
     
-    class Java {
+    class Java extends Subject {
         teacher: Teacher;
         constructor(teacher: Teacher){
+            super();
             this.teacher = teacher;
         }
         getRequirements(): string {
