@@ -18,4 +18,5 @@ namespace Subjects {
             return `Available Teacher: ${this.teacher && this.teacher.experienceTeachingJava}`
         }
     }
+
 }

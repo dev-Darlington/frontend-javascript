@@ -16,4 +16,5 @@ namespace Subjects {
             return `Available Teacher: ${this.teacher.firstName && this.teacher.experienceTeachingReact}`
         }
     }
+
 }

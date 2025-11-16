@@ -10,4 +10,5 @@ namespace Subjects {
             return `Available Teacher: ${this.teacher.firstName}`
         }
     }
+
 }
